@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="English" transform="translate(0 2)">
+    <path id="Circle" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z" transform="translate(0 -2)" fill="#edf0f5"/>
+    <text id="EN" transform="translate(28.089 22.205)" fill="#005d45" font-size="16" font-family="SSTArabic-Bold, SST Arabic" font-weight="700"><tspan x="-20.736" y="0">EN</tspan></text>
+  </g>
+</svg>

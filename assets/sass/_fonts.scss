@@ -1,0 +1,42 @@
+// montserrat
+@font-face {
+    font-family: "SSTBold";
+    src:url($font-path + "SST-Arabic-Bold.ttf");
+   
+}
+@font-face {
+  font-family: "SSTMedium";
+  src: url($font-path + "SST-Arabic-Medium.ttf");
+    
+}
+@font-face {
+  font-family: "SSTRoman";
+  src:  url($font-path + "SST-Arabic-Roman.ttf");
+   
+}
+@font-face {
+  font-family: "SSTLight";
+  src:  url($font-path + "SST-Arabic-Light.ttf");
+}
+
+/*Tajawal*/
+
+@font-face {
+  font-family: "TajawalBold";
+  src:url($font-path + "Tajawal-Bold.ttf");
+ 
+}
+@font-face {
+font-family: "TajawalMedium";
+src: url($font-path + "Tajawal-Medium.ttf");
+  
+}
+@font-face {
+font-family: "TajawalRegular";
+src:  url($font-path + "Tajawal-Regular.ttf");
+ 
+}
+@font-face {
+font-family: "TajawalLight";
+src:  url($font-path + "Tajawal-Light.ttf");
+}

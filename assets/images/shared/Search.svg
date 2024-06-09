@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Search" transform="translate(21.925 1.867)">
+    <path id="Circle" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z" transform="translate(-21.925 -1.867)" fill="#46c752"/>
+    <path id="Icon" d="M10.907,9.6a6.06,6.06,0,1,0-1.313,1.314l3.955,3.955,1.314-1.314L10.907,9.6Zm-4.869.625a4.18,4.18,0,1,1,4.18-4.18,4.185,4.185,0,0,1-4.18,4.18Z" transform="translate(-11.6 9.078)" fill="#fff"/>
+  </g>
+</svg>
