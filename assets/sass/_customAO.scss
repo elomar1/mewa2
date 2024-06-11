@@ -156,7 +156,7 @@ body {
   .p12 {
     font-size: 12px;
     font-family: "SSTMedium";
-    color: #000000;
+    color: $pBlack;
   }
 }
 
@@ -569,7 +569,7 @@ body {
       .font22Black {
         margin-top: 20px;
         transition: 0.25s;
-        color: #000000;
+        color: $pBlack;
       }
       img {
         height: 82px;
@@ -705,7 +705,7 @@ body {
       }
 
       .p13 {
-        color: #000000;
+        color: $pBlack;
         line-height: 25px;
         height: calc(25px * 3);
         -webkit-line-clamp: 3;
@@ -1020,7 +1020,7 @@ body {
         color: #005D45;
       }
       .p16 {
-        color: #000000;
+        color: $pBlack;
         margin-bottom: 0;
       }
     }
@@ -1266,3 +1266,420 @@ body {
 
 
 */
+
+
+.white-sec{
+ background-color: #fff;
+ box-shadow: 0 0 50px rgba($color: $pBlack, $alpha: 0.05);   
+}
+
+.Evaluation{
+  margin: 100px 0;
+  .white-sec{
+    padding: 30px 40px;
+
+  }
+  .right-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    h5{
+      font-size: 16px;
+      font-family: "TajawalMedium";
+      color: $pBlack;
+      margin-#{$end-direction}: 20px;
+      margin-bottom: 0;
+    }
+    .ev-stars{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      li{
+        margin-#{$end-direction}: 10px;
+        img{
+          width: 20px;
+          height: 20px;
+        }
+        &:last-child{
+          margin: 0;
+        }
+      }
+    }
+  }
+  .left-sec{
+    .last-edit{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 0;
+      img{
+        width: 20px;
+        height: 20px;
+      }
+      span{
+        font-size: 16px;
+        font-family: "TajawalMedium";
+        padding-#{$start-direction}: 10px;
+        color: $pBlack;
+
+      }
+    }
+  }
+}
+
+
+.breadcrumbSec{
+  background: linear-gradient(0deg, rgba(0,93,69,1) 0%, rgba(0,93,69,0.6587009803921569) 65%, rgba(96,172,102,0) 100%);
+  height: 300px;
+  position: relative;
+  padding-top: 120px;
+  margin-bottom: 50px;
+  &::before{
+    content: "";
+    position: absolute;
+    #{$start-direction}:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/shared/breadcrumb-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+
+  h2{
+    font-size: 50px;
+    font-family: "TajawalBold";
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .breadcrumb{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    li{
+      font-size: 16px;
+      font-family: "TajawalMedium";
+      color: #fff;
+      a{
+        font-size: 16px;
+        font-family: "TajawalMedium";
+        color: #fff;
+        position: relative;
+        padding-#{$end-direction}: 20px;
+        margin-#{$end-direction}: 15px;
+        text-decoration: none;
+        &::after{
+          content: "";
+          position: absolute;
+          width: 5px;
+          height: 11px;
+          #{$end-direction}: 0;
+          top: 5px;
+          background-image: url(../images/shared/breadcrumb-Arrow.svg);
+
+        }
+      }
+    }
+  }
+
+
+  .socialBC{
+    display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li{
+        margin-#{$end-direction}: 10px;
+        a{
+          width: 60px;
+          height: 60px;
+          border: 1px solid #fff;
+          background-color: transparent;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px;
+          img{
+            max-width: 27px;
+          }
+        }
+      }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************
+
+                                                              inner
+*********************************************/
+
+.top-section{
+  .white-sec{
+    padding: 55px 50px;
+  }
+  .content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    // padding-#{$end-direction}: 10px;
+    h2{
+      font-size: 26px;
+      font-family: "TajawalBold";
+      color: $title-color;
+      position: relative;
+      line-height: 40px;
+      &.with-arrow{
+        padding-#{$start-direction}: 25px;
+        &::before{
+          content: "";
+          position: absolute;
+          #{$start-direction}:0;
+          top: 0;
+          width: 15px;
+          height: 40px;
+          background-color: $color46C752;
+          border-radius: 20px 0 20px 0;
+          overflow: hidden;
+        }
+      }
+    }
+    p{
+      font-size: 21px;
+      color: $pBlack;
+      font-family: "TajawalRegular";
+      line-height: 48.5px;
+
+    }
+  }
+  .img-box{
+    overflow: hidden;
+    border-radius: 100px 0 100px 0;
+    margin-#{$start-direction}: 50px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+
+.mission-vision{
+  margin-top: 50px;
+  .inner-cont{
+    display: flex;
+    flex-direction: row;
+    .mission,
+    .vision{
+      padding: 30px 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 3px 20px rgba($color: $pBlack, $alpha: 0.03);
+      width: 50%;
+      // flex: 0 0 50%;
+      min-height: 340px;
+      transition: .5s;
+      .img-box{
+        img{}
+      }
+      .content-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h4{
+          font-size: 24px;
+          font-family: "TajawalBold";
+          color: $pBlack;
+          margin-bottom: 10px;
+          text-align: center;
+        }
+        p{
+          font-size: 22px;
+          font-family: "TajawalRegular";
+          color: #333333;
+          margin-bottom: 0px;
+          line-height: 38px;
+          max-height: calc(38px * 3);
+          overflow: hidden;
+          text-align: center;
+        }
+      }
+      &.activ{
+        flex: 0 0 67%;
+      }
+      &.remove-cont{
+        .content-box{
+          p{
+            
+            display: none;
+          }
+        }
+      }
+    }
+    .vision{
+      background-color: #fff;
+      .content-box{
+        h4{
+          color: $pBlack;
+        }
+        p{
+          color: #333333;
+        }
+      }
+    }
+    .mission{
+      background-color: $color46C752;
+      .content-box{
+        h4{
+          color: #fff;
+        }
+        p{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+
+.goals{
+  margin-top: 50px;
+  h3{
+    font-size: 30px;
+    font-family: "TajawalBold";
+    color: $title-color;
+    margin-bottom: 33px;
+  }
+  ul{
+    list-style: none;
+    counter-reset: li;
+    padding: 0;
+    margin: 0;
+    li{
+      font-size: 22px;
+      font-family: "TajawalRegular";
+      color: $pBlack;
+      margin-bottom: 20px;
+
+      &::before{
+        counter-increment: li;
+        content: counter(li);
+        font-size: 24px;
+        font-family: "TajawalBold";
+        color: #fff;
+        background-color: $color46C752;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-#{$end-direction}:30px ;
+      }
+     
+    }
+  }
+}
+
+
+.services-list{
+  .services-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 50px 0 50px 0;
+    padding: 40px 22px ;
+    overflow: hidden;
+    transition: .5s;
+    .icon-box{
+      transition: .5s;
+      margin-bottom: 10px;
+      img{}
+    }
+    .content-box{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h4{
+        font-size: 22px;
+        font-family: "TajawalBold";
+        color: $pBlack;
+        margin-bottom: 10px;
+        text-align: center;
+        transition: .5s;
+      }
+      p{
+        font-size: 20px;
+        font-family: "TajawalRegular";
+        color: #fff;
+        line-height: 33px;
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        margin-bottom: 0;
+        transition: .5s;
+        text-align: center;
+      }
+    }
+
+
+    &:hover{
+      background-color: $title-color;
+      .icon-box{
+        filter: grayscale(1) brightness(5.5);
+      }
+      .content-box{
+        h4{
+          color: #fff;
+        }
+        p{
+          height: calc(33px * 3);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

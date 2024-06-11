@@ -36,3 +36,11 @@ class="clickable" data-area="Najran"
 class="clickable" data-area="Jazan"
 class="clickable" data-area="easternRegion"
 */
+
+
+
+$(".mission-vision .inner-cont >div").click(function () {
+ $(".mission-vision .inner-cont >div").removeClass("activ").addClass("remove-cont")
+  $(this).toggleClass("activ").removeClass("remove-cont");
+
+});
