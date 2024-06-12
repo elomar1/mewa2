@@ -1731,11 +1731,13 @@ body {
 .breadcrumbSec .breadcrumb li a::after {
   content: "";
   position: absolute;
-  width: 5px;
-  height: 11px;
+  width: 6px;
+  height: 13px;
   left: 0;
   top: 5px;
   background-image: url(../images/shared/breadcrumb-Arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .breadcrumbSec .socialBC {
@@ -2094,6 +2096,48 @@ body {
 .services-list .services-card:hover .content-box p {
   height: calc(33px * 3);
   opacity: 1;
+}
+
+.inner .table tr {
+  border: none;
+}
+
+.inner .table tr:first-child {
+  background-color: #005D45 !important;
+  border: 0;
+}
+
+.inner .table tr:first-child td {
+  color: #fff;
+  font-family: "TajawalBold";
+}
+
+.inner .table tr:nth-child(even) {
+  background-color: #EDF0F5;
+}
+
+.inner .table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.inner .table tr td {
+  font-size: 19px;
+  font-family: "TajawalRegular";
+  color: #000000;
+  padding: 21px 20px;
+  text-align: center;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.systems-list {
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+
+.systems-list .table tr td:nth-child(2) {
+  width: 60%;
 }
 
 @media (min-width: 1500px) {
