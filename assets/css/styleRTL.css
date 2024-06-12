@@ -21,34 +21,14 @@
 }
 
 /*Tajawal*/
-@font-face {
-  font-family: "TajawalBold";
-  src: url("../fonts/Tajawal-Bold.ttf");
-}
-
-@font-face {
-  font-family: "TajawalMedium";
-  src: url("../fonts/Tajawal-Medium.ttf");
-}
-
-@font-face {
-  font-family: "TajawalRegular";
-  src: url("../fonts/Tajawal-Regular.ttf");
-}
-
-@font-face {
-  font-family: "TajawalLight";
-  src: url("../fonts/Tajawal-Light.ttf");
-}
-
 body {
-  font-family: "montserrat";
+  font-family: "SSTRoman";
   direction: rtl;
   text-align: right;
 }
 
 html[dir="rtl"] body {
-  font-family: "DINNextLT";
+  font-family: "SSTRoman";
 }
 
 *,
@@ -119,20 +99,6 @@ h4 {
 
 .strong {
   font-weight: bold;
-}
-
-ul.blue-dots {
-  list-style: none;
-  line-height: 32px;
-}
-
-ul.blue-dots li::before {
-  content: "";
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  margin-left: 10px;
 }
 
 ol {
@@ -635,13 +601,13 @@ body {
 .bannerMenu .swiper-slide-active .font50 {
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
-  font-family: "TajawalBold";
+  font-family: "SSTBold";
 }
 
 .bannerMenu .swiper-slide-active .p16 {
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
-  font-family: "TajawalRegular";
+  font-family: "SSTRoman";
 }
 
 .bannerMenu .swiper-slide-active .linkArrow {
@@ -1349,7 +1315,7 @@ body {
 }
 
 .footerMenw .FooterLinks + .FooterLinks {
-  margin-top: 34px;
+  margin-top: 45px;
 }
 
 .footerMenw {
@@ -1359,7 +1325,12 @@ body {
 
 .footerMenw .p20 {
   color: #46C752;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  line-height: 2;
+}
+
+.footerMenw .FooterLinks .flexCenter {
+  margin-top: 25px;
 }
 
 .footerMenw .FooterLinks ul {
@@ -1372,6 +1343,7 @@ body {
 }
 
 .footerMenw .FooterLinks ul li a {
+  font-size: 15px;
   color: #fff;
   text-decoration: unset;
 }
@@ -1407,7 +1379,7 @@ body {
 
 .footerMenw > hr {
   background: #fff;
-  margin: 36px 0 14px;
+  margin: 40px 0 20px;
 }
 
 .footerMenw .text-center .p18, .footerMenw .text-center .btnGreen,
@@ -1605,7 +1577,7 @@ body {
 
 .Evaluation .right-sec h5 {
   font-size: 16px;
-  font-family: "TajawalMedium";
+  font-family: "SSTMedium";
   color: #000000;
   margin-left: 20px;
   margin-bottom: 0;
@@ -1661,39 +1633,25 @@ body {
 
 .Evaluation .left-sec .last-edit span {
   font-size: 16px;
-  font-family: "TajawalMedium";
+  font-family: "SSTMedium";
   padding-right: 10px;
   color: #000000;
 }
 
 .breadcrumbSec {
-  background: -webkit-gradient(linear, left bottom, left top, from(#005d45), color-stop(65%, rgba(0, 93, 69, 0.658701)), to(rgba(96, 172, 102, 0)));
-  background: linear-gradient(0deg, #005d45 0%, rgba(0, 93, 69, 0.658701) 65%, rgba(96, 172, 102, 0) 100%);
-  height: 300px;
+  background-color: #005D45;
+  height: 200px;
   position: relative;
-  padding-top: 120px;
+  padding-top: 40px;
   margin-bottom: 50px;
 }
 
-.breadcrumbSec::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/shared/breadcrumb-Image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
-
 .breadcrumbSec h2 {
-  font-size: 50px;
-  font-family: "TajawalBold";
+  font-size: 30px;
+  line-height: 2;
+  font-family: "SSTBold";
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .breadcrumbSec .breadcrumb {
@@ -1714,13 +1672,14 @@ body {
 
 .breadcrumbSec .breadcrumb li {
   font-size: 16px;
-  font-family: "TajawalMedium";
+  font-family: "SSTMedium";
   color: #fff;
 }
 
 .breadcrumbSec .breadcrumb li a {
   font-size: 16px;
-  font-family: "TajawalMedium";
+  line-height: 2;
+  font-family: "SSTMedium";
   color: #fff;
   position: relative;
   padding-left: 20px;
@@ -1734,7 +1693,7 @@ body {
   width: 6px;
   height: 13px;
   left: 0;
-  top: 5px;
+  top: 13px;
   background-image: url(../images/shared/breadcrumb-Arrow.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -1754,6 +1713,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -1764,8 +1724,8 @@ body {
 }
 
 .breadcrumbSec .socialBC li a {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border: 1px solid #fff;
   background-color: transparent;
   border-radius: 50%;
@@ -1809,7 +1769,7 @@ body {
 
 .top-section .content-box h2 {
   font-size: 26px;
-  font-family: "TajawalBold";
+  font-family: "SSTBold";
   color: #005D45;
   position: relative;
   line-height: 40px;
@@ -1834,7 +1794,7 @@ body {
 .top-section .content-box p {
   font-size: 21px;
   color: #000000;
-  font-family: "TajawalRegular";
+  font-family: "SSTRoman";
   line-height: 48.5px;
 }
 
@@ -1908,7 +1868,7 @@ body {
 .mission-vision .inner-cont .mission .content-box h4,
 .mission-vision .inner-cont .vision .content-box h4 {
   font-size: 24px;
-  font-family: "TajawalBold";
+  font-family: "SSTBold";
   color: #000000;
   margin-bottom: 10px;
   text-align: center;
@@ -1917,7 +1877,7 @@ body {
 .mission-vision .inner-cont .mission .content-box p,
 .mission-vision .inner-cont .vision .content-box p {
   font-size: 22px;
-  font-family: "TajawalRegular";
+  font-family: "SSTRoman";
   color: #333333;
   margin-bottom: 0px;
   line-height: 38px;
@@ -1968,7 +1928,7 @@ body {
 
 .goals h3 {
   font-size: 30px;
-  font-family: "TajawalBold";
+  font-family: "SSTBold";
   color: #005D45;
   margin-bottom: 33px;
 }
@@ -1982,7 +1942,7 @@ body {
 
 .goals ul li {
   font-size: 22px;
-  font-family: "TajawalRegular";
+  font-family: "SSTRoman";
   color: #000000;
   margin-bottom: 20px;
 }
@@ -1991,7 +1951,7 @@ body {
   counter-increment: li;
   content: counter(li);
   font-size: 24px;
-  font-family: "TajawalBold";
+  font-family: "SSTBold";
   color: #fff;
   background-color: #46C752;
   width: 50px;
@@ -2058,7 +2018,7 @@ body {
 
 .services-list .services-card .content-box h4 {
   font-size: 22px;
-  font-family: "TajawalBold";
+  font-family: "SSTBold";
   color: #000000;
   margin-bottom: 10px;
   text-align: center;
@@ -2068,7 +2028,7 @@ body {
 
 .services-list .services-card .content-box p {
   font-size: 20px;
-  font-family: "TajawalRegular";
+  font-family: "SSTRoman";
   color: #fff;
   line-height: 33px;
   height: 0;
@@ -2108,8 +2068,9 @@ body {
 }
 
 .inner .table tr:first-child td {
+  font-size: 19px;
   color: #fff;
-  font-family: "TajawalBold";
+  font-family: "SSTBold";
 }
 
 .inner .table tr:nth-child(even) {
@@ -2121,8 +2082,8 @@ body {
 }
 
 .inner .table tr td {
-  font-size: 19px;
-  font-family: "TajawalRegular";
+  font-size: 18px;
+  font-family: "SSTRoman";
   color: #000000;
   padding: 21px 20px;
   text-align: center;

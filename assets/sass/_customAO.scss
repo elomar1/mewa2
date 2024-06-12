@@ -423,11 +423,11 @@ body {
 
     .font50 {
       transition-delay: 0.4s;
-      font-family: "TajawalBold";
+      font-family: "SSTBold";
     }
     .p16 {
       transition-delay: 0.5s;
-      font-family: "TajawalRegular";
+      font-family: "SSTRoman";
     }
     .linkArrow {
       transition-delay: 0.6s;
@@ -1064,22 +1064,27 @@ body {
 
 
 .footerMenw .FooterLinks + .FooterLinks {
-    margin-top: 34px;
+    margin-top: 45px;
 }
 .footerMenw {
   background: #005D45;
   padding: 60px 0 20px;
   .p20 {
     color: $color46C752;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    line-height: 2;
   }
   .FooterLinks {
+    .flexCenter{
+      margin-top: 25px;
+    }
     ul {
       padding: 0;
       list-style: none;
       li {
         margin-bottom: 15px;
         a {
+          font-size: 15px;
           color: #fff;
           text-decoration: unset;
           &:hover {
@@ -1114,7 +1119,7 @@ body {
   }
   > hr {
     background: #fff;
-    margin: 36px 0 14px;
+    margin: 40px 0 20px;
   }
   .text-center {
     .p18 {
@@ -1285,7 +1290,7 @@ body {
     align-items: center;
     h5{
       font-size: 16px;
-      font-family: "TajawalMedium";
+      font-family: "SSTMedium";
       color: $pBlack;
       margin-#{$end-direction}: 20px;
       margin-bottom: 0;
@@ -1321,7 +1326,7 @@ body {
       }
       span{
         font-size: 16px;
-        font-family: "TajawalMedium";
+        font-family: "SSTMedium";
         padding-#{$start-direction}: 10px;
         color: $pBlack;
 
@@ -1332,30 +1337,18 @@ body {
 
 
 .breadcrumbSec{
-  background: linear-gradient(0deg, rgba(0,93,69,1) 0%, rgba(0,93,69,0.6587009803921569) 65%, rgba(96,172,102,0) 100%);
-  height: 300px;
+  background-color: $title-color;
+  height: 200px;
   position: relative;
-  padding-top: 120px;
+  padding-top: 40px;
   margin-bottom: 50px;
-  &::before{
-    content: "";
-    position: absolute;
-    #{$start-direction}:0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/shared/breadcrumb-Image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-  }
 
   h2{
-    font-size: 50px;
-    font-family: "TajawalBold";
+    font-size: 30px;
+    line-height: 2;
+    font-family: "SSTBold";
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .breadcrumb{
     padding: 0;
@@ -1366,11 +1359,12 @@ body {
     align-items: center;
     li{
       font-size: 16px;
-      font-family: "TajawalMedium";
+      font-family: "SSTMedium";
       color: #fff;
       a{
         font-size: 16px;
-        font-family: "TajawalMedium";
+        line-height: 2;
+        font-family: "SSTMedium";
         color: #fff;
         position: relative;
         padding-#{$end-direction}: 20px;
@@ -1382,7 +1376,7 @@ body {
           width: 6px;
           height: 13px;
           #{$end-direction}: 0;
-          top: 5px;
+          top: 13px;
           background-image: url(../images/shared/breadcrumb-Arrow.svg);
           background-size: contain;
           background-repeat: no-repeat;
@@ -1394,18 +1388,19 @@ body {
 
 
   .socialBC{
-    display: flex;
+      display: flex;
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
+      height: 100%;
       list-style: none;
       margin: 0;
       padding: 0;
       li{
         margin-#{$end-direction}: 10px;
         a{
-          width: 60px;
-          height: 60px;
+          width: 50px;
+          height: 50px;
           border: 1px solid #fff;
           background-color: transparent;
           border-radius: 50%;
@@ -1459,7 +1454,7 @@ body {
     // padding-#{$end-direction}: 10px;
     h2{
       font-size: 26px;
-      font-family: "TajawalBold";
+      font-family: "SSTBold";
       color: $title-color;
       position: relative;
       line-height: 40px;
@@ -1481,7 +1476,7 @@ body {
     p{
       font-size: 21px;
       color: $pBlack;
-      font-family: "TajawalRegular";
+      font-family: "SSTRoman";
       line-height: 48.5px;
 
     }
@@ -1526,14 +1521,14 @@ body {
         justify-content: center;
         h4{
           font-size: 24px;
-          font-family: "TajawalBold";
+          font-family: "SSTBold";
           color: $pBlack;
           margin-bottom: 10px;
           text-align: center;
         }
         p{
           font-size: 22px;
-          font-family: "TajawalRegular";
+          font-family: "SSTRoman";
           color: #333333;
           margin-bottom: 0px;
           line-height: 38px;
@@ -1585,7 +1580,7 @@ body {
   margin-top: 50px;
   h3{
     font-size: 30px;
-    font-family: "TajawalBold";
+    font-family: "SSTBold";
     color: $title-color;
     margin-bottom: 33px;
   }
@@ -1596,7 +1591,7 @@ body {
     margin: 0;
     li{
       font-size: 22px;
-      font-family: "TajawalRegular";
+      font-family: "SSTRoman";
       color: $pBlack;
       margin-bottom: 20px;
 
@@ -1604,7 +1599,7 @@ body {
         counter-increment: li;
         content: counter(li);
         font-size: 24px;
-        font-family: "TajawalBold";
+        font-family: "SSTBold";
         color: #fff;
         background-color: $color46C752;
         width: 50px;
@@ -1647,7 +1642,7 @@ body {
       align-items: center;
       h4{
         font-size: 22px;
-        font-family: "TajawalBold";
+        font-family: "SSTBold";
         color: $pBlack;
         margin-bottom: 10px;
         text-align: center;
@@ -1655,7 +1650,7 @@ body {
       }
       p{
         font-size: 20px;
-        font-family: "TajawalRegular";
+        font-family: "SSTRoman";
         color: #fff;
         line-height: 33px;
         height: 0;
@@ -1697,8 +1692,9 @@ body {
         background-color: $title-color !important;
         border: 0;
         td{
+          font-size: 19px;
           color: #fff;
-          font-family: "TajawalBold";
+          font-family: "SSTBold";
         }
       }
       &:nth-child(even){
@@ -1709,8 +1705,8 @@ body {
       }
 
       td{
-        font-size: 19px;
-        font-family: "TajawalRegular";
+        font-size: 18px;
+        font-family: "SSTRoman";
         color: $pBlack;
         padding: 21px 20px;
         text-align: center;

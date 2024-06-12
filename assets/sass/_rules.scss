@@ -68,19 +68,7 @@ body {
   .strong {
     font-weight: bold;
   }
-  ul.blue-dots {
-    list-style: none;
-    line-height: 32px;
-    li::before {
-      content: "";
-      // background-color: $primary-color;
-      display: inline-block;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      margin-#{$end-direction}: 10px;
-    }
-  }
+
   ol {
     list-style: decimal;
     line-height: 32px;
