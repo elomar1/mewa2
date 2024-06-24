@@ -2147,6 +2147,22 @@ body {
   background-size: 28px;
 }
 
+.sort-search select {
+  background-image: url(../images/shared/Arrow-down-select.svg);
+  background-repeat: no-repeat;
+  background-position: 28px 26px;
+  min-height: 60px;
+  padding: 10px 40px;
+  padding-left: 60px;
+  border-radius: 50px;
+  border: 1px solid #E0E5E9;
+  font-size: 18px;
+  color: #000000;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #fff;
+}
+
 /*
 pagination
 */
@@ -2248,6 +2264,285 @@ pagination
 
 .systems-list .table tr td:nth-child(2) {
   width: 60%;
+}
+
+.docs-list .sort-search {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.docs-list .sort-search input {
+  width: 400px;
+}
+
+.docs-list .sort-search select {
+  width: 400px;
+  margin-left: 30px;
+}
+
+.docs-list .sort-search.left-sec {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.docs-list .sort-search.left-sec select {
+  width: 350px;
+}
+
+.docs-list .docs-card {
+  height: 300px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 30px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.docs-list .docs-card .icon-box {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.docs-list .docs-card .icon-box img {
+  height: 100%;
+}
+
+.docs-list .docs-card .content-box h4 {
+  font-size: 16px;
+  font-family: "SSTMedium";
+  line-height: 37px;
+  height: calc(37px *2);
+  color: #000000;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.docs-list .docs-card .content-box .hidden-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.docs-list .docs-card .content-box .hidden-box .download-link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 15px 14px;
+  background-color: #46C752;
+  color: #fff;
+  font-size: 18px;
+  font-family: "SSTBold";
+}
+
+.docs-list .docs-card .content-box .hidden-box .download-link a img {
+  -webkit-filter: grayscale(5) brightness(5);
+          filter: grayscale(5) brightness(5);
+  margin-left: 10px;
+  height: 20px;
+}
+
+.docs-list .docs-card:hover .content-box .hidden-box {
+  opacity: 1;
+}
+
+.news-list .sort-search {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.news-list .sort-search input {
+  width: 400px;
+}
+
+.news-list .sort-search select {
+  width: 400px;
+  margin-left: 30px;
+}
+
+.news-list .sort-search.left-sec {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.news-list .sort-search.left-sec select {
+  width: 350px;
+}
+
+.news-list .news-card {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.news-list .news-card .img-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.news-list .news-card .img-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.news-list .news-card .content-box {
+  width: 100%;
+  height: 140px;
+  padding: 14px 23px;
+  background-color: rgba(0, 93, 69, 0.8);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.news-list .news-card .content-box .date {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #fff;
+  padding: 6px 23px 8px;
+  margin-bottom: 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.news-list .news-card .content-box .date img {
+  height: 18px;
+  width: 18px;
+  margin-left: 10px;
+}
+
+.news-list .news-card .content-box .date span {
+  font-size: 15px;
+  color: #fff;
+}
+
+.news-list .news-card .content-box h4 {
+  font-size: 16px;
+  font-family: "SSTRoman";
+  color: #fff;
+  line-height: 31px;
+  height: calc(31px * 2);
+  overflow: hidden;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.news-list .news-card:hover .img-box img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.news-list .news-card:hover .content-box {
+  background-color: #005D45;
+}
+
+.news-list .news-card:hover .content-box .date {
+  background-color: #46C752;
+  border-color: #46C752;
+}
+
+.news-details .white-sec {
+  padding: 50px 55px;
+}
+
+.news-details .white-sec h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "SSTBold";
+  color: #005D45;
+  margin-bottom: 40px;
+}
+
+.news-details .white-sec .date {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #46C752;
+  border-color: #46C752;
+  padding: 6px 23px 8px;
+  margin-bottom: 40px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.news-details .white-sec .date img {
+  height: 18px;
+  width: 18px;
+  margin-left: 10px;
+}
+
+.news-details .white-sec .date span {
+  font-size: 15px;
+  color: #fff;
+}
+
+.news-details .white-sec .img-area {
+  max-width: 1025px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.news-details .white-sec .img-area img {
+  width: 100%;
+  border-radius: 50px 0 50px 0;
+  overflow: hidden;
+}
+
+.news-details .white-sec .content-area {
+  margin-top: 55px;
+}
+
+.news-details .white-sec .content-area p {
+  font-size: 18px;
+  line-height: 40px;
+  color: #000000;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 1500px) {
