@@ -2545,6 +2545,227 @@ pagination
   margin-bottom: 20px;
 }
 
+.mewa-tabs {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border: 1px solid #E0E5E9;
+  border-radius: 35px;
+  margin-bottom: 50px;
+  width: auto;
+  padding: 0;
+}
+
+.mewa-tabs .nav-item {
+  margin-left: 100px;
+}
+
+.mewa-tabs .nav-item .nav-link {
+  font-size: 18px;
+  color: #464749;
+  padding-bottom: 20px;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 0;
+  padding: 15px 50px 25px;
+}
+
+.mewa-tabs .nav-item .nav-link.active {
+  border-color: #005D45;
+  font-family: "SSTBold";
+  background-color: transparent;
+}
+
+.mewa-tabs .nav-item:last-child {
+  margin-left: 0;
+}
+
+.events-list .mewa-tabs {
+  min-width: 1165px;
+}
+
+.events-list .event-card {
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 50px 0 50px 0;
+  overflow: hidden;
+  padding: 30px 25px;
+  margin-bottom: 50px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.events-list .event-card .top-section {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.events-list .event-card .top-section .day-one,
+.events-list .event-card .top-section .day-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 25px;
+  border-radius: 20px 0 20px 0;
+  overflow: hidden;
+  width: 140px;
+}
+
+.events-list .event-card .top-section .day-one .icon-box,
+.events-list .event-card .top-section .day-two .icon-box {
+  height: 27px;
+  margin-bottom: 8px;
+}
+
+.events-list .event-card .top-section .day-one .icon-box img,
+.events-list .event-card .top-section .day-two .icon-box img {
+  height: 100%;
+}
+
+.events-list .event-card .top-section .day-one .content-box,
+.events-list .event-card .top-section .day-two .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.events-list .event-card .top-section .day-one .content-box h4,
+.events-list .event-card .top-section .day-two .content-box h4 {
+  font-size: 35px;
+  font-family: "SSTBold";
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.events-list .event-card .top-section .day-one .content-box p,
+.events-list .event-card .top-section .day-two .content-box p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.events-list .event-card .top-section .day-one {
+  background-color: #46C752;
+}
+
+.events-list .event-card .top-section .day-two {
+  background-color: #005D45;
+  margin-right: 20px;
+}
+
+.events-list .event-card .title {
+  font-size: 18px;
+  font-family: "SSTMedium";
+  font-weight: 400;
+  line-height: 40px;
+  height: 40px;
+  overflow: hidden;
+  margin-bottom: 0px;
+  text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.events-list .event-card .details-a {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.events-list .event-card .details-a a {
+  display: block;
+  padding: 7px 45px 11px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.events-list .event-card:hover {
+  background-color: #005D45;
+}
+
+.events-list .event-card:hover .top-section .day-one,
+.events-list .event-card:hover .top-section .day-two {
+  visibility: hidden;
+  position: absolute;
+  height: 0 !important;
+}
+
+.events-list .event-card:hover .title {
+  color: #fff;
+}
+
+.events-list .event-card:hover .details-a {
+  position: relative;
+  visibility: visible;
+  opacity: 1;
+}
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1400px;
