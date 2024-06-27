@@ -2254,3 +2254,66 @@ pagination
     }
   }
 }
+
+
+.media-list{
+  .mewa-tabs{
+    min-width: 800px;
+  }
+  .media-card{
+    width: 100%;
+    height: 320px;
+    box-shadow: 0 3px 10px rgba($color: #000000, $alpha: 0.05);
+    border-radius: 50px 0 50px 0 ;
+    margin-bottom: 50px;
+    overflow: hidden;
+    .img-box{
+      height: 252px;
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        #{$start-direction}:0;
+        // background-color: #46C752;
+        // background-color: rgba($color: $title-color, $alpha: 0.6);
+        background-color: rgba($color: $pBlack, $alpha: 0.6);
+        background-image: url(../images/media-center/img-Icon.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    
+    }
+    .content-box{
+      background-color: #fff;
+      padding: 8px 24px 20px;
+      h4{
+        font-size: 18px;
+        font-family: "SSTMedium";
+        font-weight: 400;
+        color: $title-color;
+        line-height: 40px;
+        height: 40px;
+        overflow: hidden;
+      }
+    }
+  }
+  
+  .vid-area{
+    .media-card{
+      .img-box{
+        &::before{
+          background-image: url(../images/media-center/Video_Icon.svg);
+        }
+      }
+    }
+  }
+}

@@ -2766,6 +2766,64 @@ pagination
   opacity: 1;
 }
 
+.media-list .mewa-tabs {
+  min-width: 800px;
+}
+
+.media-list .media-card {
+  width: 100%;
+  height: 320px;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 50px 0 50px 0;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.media-list .media-card .img-box {
+  height: 252px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.media-list .media-card .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.media-list .media-card .img-box::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url(../images/media-center/img-Icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.media-list .media-card .content-box {
+  background-color: #fff;
+  padding: 8px 24px 20px;
+}
+
+.media-list .media-card .content-box h4 {
+  font-size: 18px;
+  font-family: "SSTMedium";
+  font-weight: 400;
+  color: #005D45;
+  line-height: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.media-list .vid-area .media-card .img-box::before {
+  background-image: url(../images/media-center/Video_Icon.svg);
+}
+
 @media (min-width: 1500px) {
   .container {
     max-width: 1400px;
