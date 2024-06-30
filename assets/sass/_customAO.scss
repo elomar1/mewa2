@@ -835,6 +835,7 @@ body {
 }
 .resultMap {
   display: flex;
+  height: 200px;
   ul {
     display:none;
     &.activeList {

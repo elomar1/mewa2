@@ -77,6 +77,20 @@ $(document).ready(function () {
     },
   });
   //   swiperNews
+  $("#Map .clickable").click(function () {
+    const area = $(this).attr("data-area");
+    $(this).addClass("activeArea").siblings().removeClass("activeArea");
+    console.log(area);
+    $(".resultMap ul").each(function () {
+      const list = $(this).attr("data-list");
+      if (list.includes(area)) {
+        $(this).addClass("activeList").siblings().removeClass("activeList");
+      } else {
+        $(this).removeClass("activeList");
+      }
+    });
+  });
+
 });
 
 jQuery(function ($) {
@@ -102,19 +116,7 @@ jQuery(function ($) {
   });
 });
 
-$("#Map .clickable").click(function () {
-  const area = $(this).attr("data-area");
-  $(this).addClass("activeArea").siblings().removeClass("activeArea");
-  console.log(area);
-  $(".resultMap ul").each(function () {
-    const list = $(this).attr("data-list");
-    if (list.includes(area)) {
-      $(this).addClass("activeList").siblings().removeClass("activeList");
-    } else {
-      $(this).removeClass("activeList");
-    }
-  });
-});
+
 /*
   
   
