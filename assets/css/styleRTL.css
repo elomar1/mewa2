@@ -1690,7 +1690,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .Evaluation .evaluationBox span {
-  font-size: 16px;
+  font-size: 14px;
   color: #46C752;
 }
 
@@ -2626,6 +2626,7 @@ pagination
 
 .news-details.event-det .img-area {
   position: relative;
+  min-height: 350px;
 }
 
 .news-details.event-det .img-area .ev-dates {
@@ -2648,7 +2649,7 @@ pagination
   width: 100%;
   height: 180px;
   right: 0;
-  bottom: 0;
+  bottom: -5px;
   -webkit-backdrop-filter: blur(5px) grayscale(0.7);
           backdrop-filter: blur(5px) grayscale(0.7);
   border-radius: 0 0 50px 0;
@@ -2886,7 +2887,7 @@ pagination
 
 .events-list .event-card .top-section .day-one .content-box p,
 .events-list .event-card .top-section .day-two .content-box p {
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   line-height: 30px;
   margin-bottom: 0;
@@ -2960,7 +2961,7 @@ pagination
 
 .media-list .media-card {
   width: 100%;
-  height: 320px;
+  height: 330px;
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
           box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
   border-radius: 50px 0 50px 0;
@@ -3003,8 +3004,9 @@ pagination
   font-family: "SSTMedium";
   font-weight: 400;
   color: #005D45;
-  line-height: 40px;
-  height: 40px;
+  line-height: 30px;
+  height: 30px;
+  margin-bottom: 3px;
   overflow: hidden;
 }
 
