@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   display: inline-block;
   min-width: 140px;
   min-height: 52px;
-  background: #60ac66;
+  background: #46C752;
   -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
           box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -207,8 +207,8 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
 .btnMewa {
   border-radius: 25px;
-  border: 1px solid #46C752;
-  background: #46C752;
+  border: 1px solid #46C752 !important;
+  background: #46C752 !important;
   padding: 10px 20px;
   min-width: 150px;
   display: -webkit-inline-box;
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
           align-items: center;
   text-decoration: unset;
   min-height: 50px;
-  color: #fff;
+  color: #fff !important;
   font-family: "SSTMedium";
 }
 
@@ -231,6 +231,10 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   transition: 0.25s;
   color: #fff;
   opacity: .8;
+}
+
+.btnMewa:visited {
+  color: #fff !important;
 }
 
 .p18, .btnGreen,
@@ -428,7 +432,8 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .btnGreen {
-  background: #46C752;
+  background: #46C752 !important;
+  color: #fff !important;
 }
 
 /* end global */
@@ -447,16 +452,18 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   }
   .menuWithBanner .navbarMenu .nav-item.dropdown .dropdown-menu {
     border: unset;
-    padding: 21px 24px;
+    padding: 21px 10px;
     border-radius: 8px;
     -webkit-box-shadow: 6px 6px 24px rgba(0, 0, 0, 0.1);
     box-shadow: 6px 6px 24px rgba(0, 0, 0, 0.1);
     left: 0;
-    min-width: 260px;
+    min-width: 185px;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
     top: 42px;
+    right: -25px;
+    text-align: right;
   }
   .menuWithBanner .navbarMenu .nav-item.dropdown .dropdown-menu ul {
     padding: 0;
@@ -520,7 +527,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   -webkit-box-shadow: 0 3px 40px rgba(0, 0, 0, 0.05);
           box-shadow: 0 3px 40px rgba(0, 0, 0, 0.05);
   padding: 27px 0;
-  border-top: 5px solid #46C752;
+  border-top: 5px solid #005D45;
 }
 
 .navMewa .logoMain img {
@@ -670,12 +677,11 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   z-index: 1;
   left: 0;
   bottom: 0;
-  height: 100%;
+  height: 50%;
   width: 100%;
-  background: #60ac66;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(96, 172, 102, 0.613883)), color-stop(41%, rgba(96, 172, 102, 0)));
-  background: linear-gradient(0deg, rgba(96, 172, 102, 0.613883) 0%, rgba(96, 172, 102, 0) 41%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#60ac66",endColorstr="#60ac66",GradientType=1);
+  background: #005d45;
+  background: -webkit-gradient(linear, left bottom, left top, from(#005d45), to(rgba(96, 172, 102, 0)));
+  background: linear-gradient(0deg, #005d45 0%, rgba(96, 172, 102, 0) 100%);
 }
 
 .bannerMenu .contentBanner .BNRtxt {
@@ -709,8 +715,10 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   width: 44px;
   height: 44px;
   background-image: url(../images/shared/arrowWhite.svg);
-  background-color: #60ac66;
+  background-color: #46C752;
   border: 1px solid #60ac66;
+  -webkit-filter: drop-shadow(0px -3px 25px #000000);
+          filter: drop-shadow(0px -3px 25px #000000);
 }
 
 .emtthalSec {
@@ -974,8 +982,10 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .mapHome .adverSec .shuqBxo .overLay {
-  background: #46C752;
-  opacity: .4;
+  background: #00642f;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 100, 47, 0.851978)), to(rgba(0, 112, 47, 0.53)));
+  background: linear-gradient(0deg, rgba(0, 100, 47, 0.851978) 0%, rgba(0, 112, 47, 0.53) 100%);
+  opacity: .65;
 }
 
 .mapHome .swiperWapper .swiper-slide {
@@ -1124,6 +1134,12 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
 .voteSec .whiteBg {
   height: 100%;
+}
+
+.voteSec .whiteBg h3 {
+  font-size: 25px;
+  font-family: 'SSTMedium';
+  color: #005D45;
 }
 
 .voteSec .fexCenter .btnMewa, .voteSec .ulEstb li a .btnMewa {
@@ -1370,7 +1386,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .footerMenw .FooterLinks ul li a:hover {
-  color: #46c752;
+  color: #46C752;
   text-decoration: underline;
 }
 
@@ -1399,8 +1415,9 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .footerMenw > hr {
-  background: #fff;
   margin: 40px 0 20px;
+  border-top: 1px solid #f8f8f8;
+  opacity: .2;
 }
 
 .footerMenw .text-center .p18, .footerMenw .text-center .btnGreen,
