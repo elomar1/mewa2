@@ -1560,6 +1560,10 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   fill: #005D45;
 }
 
+.mapSec #Map .onHover {
+  fill: #005D45;
+}
+
 /*
 
 .contrast #s4-bodyContainer div:not([class]) > *,

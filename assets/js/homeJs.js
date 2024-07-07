@@ -80,13 +80,32 @@ $(document).ready(function () {
   $("#Map .clickable").click(function () {
     const area = $(this).attr("data-area");
     $(this).addClass("activeArea").siblings().removeClass("activeArea");
-    console.log(area);
+   
+    $("#Map path").each(function () {
+      if ($(this).attr('data-area') == area) {
+        $(this).addClass("activeArea")
+      } else {
+        $(this).removeClass("activeArea");
+      }
+    });
+ 
     $(".resultMap ul").each(function () {
       const list = $(this).attr("data-list");
       if (list.includes(area)) {
         $(this).addClass("activeList").siblings().removeClass("activeList");
       } else {
         $(this).removeClass("activeList");
+      }
+    });
+  });
+
+  $("#Map .clickable").hover(function () {
+    const area = $(this).attr("data-area");
+    $("#Map path").each(function () {
+      if ($(this).attr('data-area') == area) {
+        $(this).addClass("onHover")
+      } else {
+        $(this).removeClass("onHover");
       }
     });
   });

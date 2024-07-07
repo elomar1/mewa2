@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   padding-bottom: 14px;
   position: relative;
   padding-bottom: 25px;
-  color: #005D45;
+  color: $title-color;
   font-size: 30px;
   font-family: "SSTLight";
   strong {
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 .btnGreen,
 .btnBlue {
-  background: #005D45;
+  background: $title-color;
   color: #fff;
   border-radius: 25px;
   padding: 5px 30px 5px 30px;
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #fff;
-    border: 1px solid #005D45;
+    border: 1px solid $title-color;
   }
 
   .swiper-button-next {
@@ -555,7 +555,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
     padding-top: 100px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
     &:hover {
-      background: #005D45;
+      background: $title-color;
       padding-top: 50px;
       img {
         filter: brightness(0) invert(1);
@@ -703,7 +703,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
         @extend .potionAbsolute;
         width: 98%;
         height: 100%;
-        background-color: #005D45;
+        background-color: $title-color;
         bottom: 9px;
         #{$end-direction}: 10px;
         border-radius: 30px;
@@ -714,7 +714,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
       .p16 {
         @extend .multi-ellipsis;
-        color: #005D45;
+        color: $title-color;
         font-family: "SSTBold";
         line-height: 28px;
         height: calc(28px * 2);
@@ -757,7 +757,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
       }
 
       .mainTitle::after {
-        background-color: #005D45;
+        background-color: $title-color;
       }
 
       a {
@@ -911,9 +911,9 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
       min-height: 40px;
       min-width: 100px;
       padding: 5px 20px;
-      color: #005D45;
+      color: $title-color;
       background: transparent;
-      border-color: #005D45
+      border-color: $title-color
     }
   }
   .form {
@@ -1010,7 +1010,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
       flex-direction: column;
       background: white;
       padding: 19px;
-      border: 1px dashed #005D45;
+      border: 1px dashed $title-color;
       border-radius: 50%;
       height: 150px;
       width: 150px;
@@ -1043,7 +1043,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
       .counter {
         font-size: 25px;
         font-family: "SSTBold";
-        color: #005D45;
+        color: $title-color;
       }
       .p16 {
         color: $pBlack;
@@ -1093,7 +1093,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
     margin-top: 45px;
 }
 .footerMenw {
-  background: #005D45;
+  background: $title-color;
   padding: 60px 0 20px;
   .p20 {
     color: $color46C752;
@@ -1266,8 +1266,11 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
         transition: .25s;
       &.activeArea,
        &:hover {
-        fill: #005D45;
+        fill: $title-color;
        }
+      }
+      .onHover {
+        fill: $title-color;
       }
     }
 }
@@ -2475,3 +2478,5 @@ pagination
 .contrast{
   filter: grayscale(100%) brightness(95%) contrast(120%);
 }
+
+
