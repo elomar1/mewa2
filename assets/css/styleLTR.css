@@ -47,13 +47,13 @@ a:hover {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #000000;
   line-height: 30px;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: bold;
 }
 
@@ -142,13 +142,13 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .font50 {
-  font-size: 50px;
+  font-size: 3.125rem;
   color: #ffffff;
   font-family: "SSTBold";
 }
 
 .font22Black {
-  font-size: 22px;
+  font-size: 1.375rem;
   color: #000000;
   margin-bottom: 15px;
   font-family: "SSTBold";
@@ -157,18 +157,18 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 .p18, .btnGreen,
 .btnBlue,
 .p16 {
-  font-size: 16px;
+  font-size: 1rem;
   color: #000000;
   font-family: "SSTRoman";
 }
 
 .p20 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "SSTBold";
 }
 
 .p13 {
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .linkArrow {
@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   background-position: 15px center;
   padding: 7px 23px;
   padding-right: 45px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fff;
   text-decoration: unset;
 }
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
 .p18, .btnGreen,
 .btnBlue {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "SSTMedium";
 }
 
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   position: relative;
   padding-bottom: 25px;
   color: #005D45;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: "SSTLight";
 }
 
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .dateMA .p12 {
-  font-size: 12px;
+  font-size: .75rem;
   font-family: "SSTMedium";
   color: #000000;
 }
@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .label {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #414141;
 }
 
@@ -370,7 +370,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   line-height: 15px;
   display: inline-block;
   color: #414141;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .customInput [type="radio"]:checked + label:before,
@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
     list-style: none;
   }
   .menuWithBanner .navbarMenu .nav-item.dropdown .dropdown-menu ul a {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .menuWithBanner .navbarMenu .nav-item.dropdown .dropdown-menu ul a:hover {
     background: unset;
@@ -489,7 +489,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   .menuWithBanner .navbar-light.navbarMenu .navbar-nav .nav-link {
     color: #ffffff;
     font-family: "SSTMedium";
-    font-size: 16px;
+    font-size: 1rem;
     padding: 13px 0;
     opacity: 0.8;
     -webkit-transition: 0.25s;
@@ -1020,14 +1020,14 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .mapHome .swiperWapper .adverTxt .p20 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fff;
   margin: 20px 0;
   font-family: "SSTMedium";
 }
 
 .mapHome .swiperWapper .adverTxt .dateMA .p12 {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #fff;
   margin-left: 20px;
 }
@@ -1115,7 +1115,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
 .resultMap ul li a span {
   display: inline-block;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-family: "SSTMedium";
 }
 
@@ -1137,7 +1137,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .voteSec .whiteBg h3 {
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-family: 'SSTMedium';
   color: #005D45;
 }
@@ -1333,7 +1333,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .ourNum .wapperNM .boxNum .counter {
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-family: "SSTBold";
   color: #005D45;
 }
@@ -1380,7 +1380,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .footerMenw .FooterLinks ul li a {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #fff;
   text-decoration: unset;
 }
@@ -1412,6 +1412,46 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
 .footerMenw .social .fexCenter a, .footerMenw .social .voteSec .ulEstb li a a, .voteSec .ulEstb li .footerMenw .social a a {
   margin-left: 40px;
+}
+
+.footerMenw .Accessibility h4 {
+  margin-bottom: 20px;
+}
+
+.footerMenw .Accessibility div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerMenw .Accessibility ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+}
+
+.footerMenw .Accessibility ul li {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.footerMenw .Accessibility ul li:last-child {
+  margin-right: 0px;
+}
+
+.footerMenw .Accessibility ul li a {
+  display: block;
+  max-width: 20px;
+  margin-bottom: 0;
+}
+
+.footerMenw .Accessibility ul li a img {
+  max-width: 100%;
 }
 
 .footerMenw > hr {
@@ -1618,7 +1658,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .Evaluation .right-sec h5 {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "SSTMedium";
   color: #000000;
   margin-right: 20px;
@@ -1691,7 +1731,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .Evaluation .left-sec .last-edit span {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "SSTMedium";
   padding-left: 10px;
   color: #000000;
@@ -1704,14 +1744,14 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
 .Evaluation .evaluationBox strong {
   color: #000;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "SSTBold";
   margin-right: 10px;
   font-weight: 400;
 }
 
 .Evaluation .evaluationBox span {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #46C752;
 }
 
@@ -1750,7 +1790,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .breadcrumbSec h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 2;
   font-family: "SSTBold";
   color: #fff;
@@ -1774,13 +1814,13 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .breadcrumbSec .breadcrumb li {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "SSTMedium";
   color: #fff;
 }
 
 .breadcrumbSec .breadcrumb li a {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 2;
   font-family: "SSTMedium";
   color: #fff;
@@ -1822,11 +1862,12 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   padding: 0;
 }
 
-.breadcrumbSec .socialBC li {
+.breadcrumbSec .socialBC > li {
   margin-right: 10px;
+  position: relative;
 }
 
-.breadcrumbSec .socialBC li a {
+.breadcrumbSec .socialBC > li > a {
   width: 50px;
   height: 50px;
   border: 1px solid #fff;
@@ -1842,10 +1883,100 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
-.breadcrumbSec .socialBC li a img {
+.breadcrumbSec .socialBC > li > a img {
   max-width: 27px;
+}
+
+.breadcrumbSec .socialBC > li .innderSocial {
+  position: absolute;
+  top: -45px;
+  display: none;
+  min-height: 45px;
+  padding: 5px 10px;
+  list-style: none;
+  background: #fff;
+  border-radius: 8px;
+  left: -56px;
+  min-width: 151px;
+  -webkit-box-shadow: 0 -5px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 -5px 40px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumbSec .socialBC > li .innderSocial::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 7px solid transparent;
+  border-left: 7px solid transparent;
+  border-top: 7px solid #fff;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(8px);
+          transform: translateX(8px);
+}
+
+.breadcrumbSec .socialBC > li .innderSocial::before {
+  background: transparent;
+  position: absolute;
+  content: "";
+  height: 11px;
+  width: 95%;
+  bottom: -10px;
+}
+
+.breadcrumbSec .socialBC > li .innderSocial li:not(:last-of-type) {
+  margin-right: 5px;
+}
+
+.breadcrumbSec .socialBC > li .innderSocial li a {
+  width: 36px;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 8px;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.breadcrumbSec .socialBC > li .innderSocial li a img {
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.breadcrumbSec .socialBC > li .innderSocial li:hover a {
+  background-color: #005D45;
+}
+
+.breadcrumbSec .socialBC > li .innderSocial li:hover a img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.breadcrumbSec .socialBC > li:hover > .innderSocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.breadcrumbSec .socialBC > li:hover > a {
+  background-color: #63BE6A;
+}
+
+.breadcrumbSec .socialBC > li:hover > a > img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }
 
 /*******************************************
@@ -1871,7 +2002,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .top-section .content-box h2 {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: "SSTBold";
   color: #005D45;
   position: relative;
@@ -1895,7 +2026,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .top-section .content-box p {
-  font-size: 21px;
+  font-size: 1.3125rem;
   color: #000000;
   font-family: "SSTRoman";
   line-height: 48.5px;
@@ -1970,7 +2101,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
 .mission-vision .inner-cont .mission .content-box h4,
 .mission-vision .inner-cont .vision .content-box h4 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "SSTBold";
   color: #000000;
   margin-bottom: 10px;
@@ -1979,7 +2110,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
 .mission-vision .inner-cont .mission .content-box p,
 .mission-vision .inner-cont .vision .content-box p {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-family: "SSTRoman";
   color: #333333;
   margin-bottom: 0px;
@@ -2030,7 +2161,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .goals h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: "SSTBold";
   color: #005D45;
   margin-bottom: 33px;
@@ -2044,7 +2175,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .goals ul li {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-family: "SSTRoman";
   color: #000000;
   margin-bottom: 20px;
@@ -2053,7 +2184,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 .goals ul li::before {
   counter-increment: li;
   content: counter(li);
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: "SSTBold";
   color: #fff;
   background-color: #46C752;
@@ -2132,7 +2263,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .services-list .services-card .content-box h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "SSTBold";
   color: #000000;
   line-height: 44px;
@@ -2143,7 +2274,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .services-list .services-card .content-box .hidden-box p {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "SSTRoman";
   color: #fff;
   line-height: 35px;
@@ -2173,7 +2304,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 }
 
 .services-list .services-card .content-box .hidden-box .start-service a {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "SSTMedium";
   color: #fff;
   background-color: #46C752;
@@ -2237,7 +2368,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   padding-right: 60px;
   border-radius: 50px;
   border: 1px solid #E0E5E9;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #000000;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -2255,7 +2386,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   padding-right: 60px;
   border-radius: 50px;
   border: 1px solid #E0E5E9;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #000000;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -2293,7 +2424,7 @@ pagination
   background: #ffffff;
   border-radius: 0;
   margin: 0 4px;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "SSTMedium";
   color: #1C1F2A;
   border: 1px solid #46C752;
@@ -2332,7 +2463,7 @@ pagination
 }
 
 .inner .table tr:first-child td {
-  font-size: 19px;
+  font-size: 1.1875;
   color: #fff;
   font-family: "SSTBold";
 }
@@ -2346,7 +2477,7 @@ pagination
 }
 
 .inner .table tr td {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "SSTRoman";
   color: #000000;
   padding: 21px 20px;
@@ -2422,7 +2553,7 @@ pagination
 }
 
 .docs-list .docs-card .content-box h4 {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "SSTMedium";
   line-height: 37px;
   height: calc(37px *2);
@@ -2455,7 +2586,7 @@ pagination
   padding: 10px 15px 14px;
   background-color: #46C752;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "SSTBold";
 }
 
@@ -2552,12 +2683,12 @@ pagination
 }
 
 .news-list .news-card .content-box .date span {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #fff;
 }
 
 .news-list .news-card .content-box h4 {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "SSTRoman";
   color: #fff;
   line-height: 31px;
@@ -2586,7 +2717,7 @@ pagination
 }
 
 .news-details .white-sec h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
   font-family: "SSTBold";
   color: #005D45;
@@ -2618,7 +2749,7 @@ pagination
 }
 
 .news-details .white-sec .date span {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #fff;
 }
 
@@ -2639,7 +2770,7 @@ pagination
 }
 
 .news-details .white-sec .content-area p {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 40px;
   color: #000000;
   margin-bottom: 20px;
@@ -2730,7 +2861,7 @@ pagination
 
 .news-details.event-det .img-area .ev-dates .date-from .content-box h4,
 .news-details.event-det .img-area .ev-dates .date-to .content-box h4 {
-  font-size: 35px;
+  font-size: 2.1875rem;
   font-family: "SSTBold";
   font-weight: 400;
   line-height: 1;
@@ -2740,7 +2871,7 @@ pagination
 
 .news-details.event-det .img-area .ev-dates .date-from .content-box p,
 .news-details.event-det .img-area .ev-dates .date-to .content-box p {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #fff;
   line-height: 30px;
   margin-bottom: 0;
@@ -2778,7 +2909,7 @@ pagination
 }
 
 .mewa-tabs .nav-item .nav-link {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #464749;
   padding-bottom: 20px;
   border-bottom: 3px solid transparent;
@@ -2898,7 +3029,7 @@ pagination
 
 .events-list .event-card .top-section .day-one .content-box h4,
 .events-list .event-card .top-section .day-two .content-box h4 {
-  font-size: 35px;
+  font-size: 2.1875rem;
   font-family: "SSTBold";
   font-weight: 400;
   line-height: 1;
@@ -2908,7 +3039,7 @@ pagination
 
 .events-list .event-card .top-section .day-one .content-box p,
 .events-list .event-card .top-section .day-two .content-box p {
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
   line-height: 30px;
   margin-bottom: 0;
@@ -2924,7 +3055,7 @@ pagination
 }
 
 .events-list .event-card .title {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "SSTMedium";
   font-weight: 400;
   line-height: 40px;
@@ -2951,7 +3082,7 @@ pagination
   color: #fff;
   border: 1px solid #fff;
   border-radius: 25px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 30px;
 }
 
@@ -3021,7 +3152,7 @@ pagination
 }
 
 .media-list .media-card .content-box h4 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: "SSTMedium";
   font-weight: 400;
   color: #005D45;
@@ -3087,7 +3218,7 @@ pagination
 
 @media (max-width: 1200px) {
   .font50 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .mapHome .col-md-6 {
     width: 100%;
@@ -3108,14 +3239,14 @@ pagination
   }
   .footerMenw .text-center .p18, .footerMenw .text-center .btnGreen,
   .footerMenw .text-center .btnBlue {
-    font-size: 12px;
+    font-size: .75rem;
   }
   .footerMenw .p20 {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 10px;
   }
   .footerMenw .FooterLinks ul li a {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .footerMenw .FooterLinks ul li {
     margin-bottom: 5px;
@@ -3218,7 +3349,7 @@ pagination
   .navbarMenu .navbar-nav .dropdown-menu ul li .dropdown-item {
     color: #212529;
     font-family: "TajawalMedium";
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 5px 0;
   }
   .navbarMenu .navbar-nav .dropdown-menu ul li .dropdown-item:hover {
@@ -3240,31 +3371,31 @@ pagination
 @media (max-width: 767px) {
   .ourNum .wapperNM .boxNum .counter,
   .font22Green {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .p20 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .p18, .btnGreen,
   .btnBlue {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .p16 {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .label,
   .p13 {
-    font-size: 12px;
+    font-size: .75rem;
   }
   .btnMewa {
-    font-size: 12px;
+    font-size: 75rem;
     min-height: 40px;
     padding: 8px 17px;
     min-width: 115px;
   }
   .btnGreen,
   .btnBlue {
-    font-size: 14px;
+    font-size: 875rem;
     padding: 5px 30px 5px 30px;
     min-height: 35px;
     min-width: 100px;
@@ -3273,7 +3404,7 @@ pagination
     min-width: 100px;
     min-height: 40px;
     padding-left: 45px;
-    font-size: 14px;
+    font-size: 875rem;
     background-size: 16px;
   }
   .bannerMenu .contentBanner .BNRtxt p.p16 {
@@ -3354,7 +3485,7 @@ pagination
     width: 25px;
   }
   .mapHome .swiperWapper .adverTxt .dateMA .p12 {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   .newsHome {
     padding: 35px 25px 30px;
@@ -3379,13 +3510,13 @@ pagination
     padding-bottom: 95px;
   }
   .mapHome .swiperWapper .adverTxt .font50 {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
   .mapHome .swiperWapper .swiper-slide {
     height: 480px;
   }
   .mapHome .swiperWapper .adverTxt .p20 {
-    font-size: 15px;
+    font-size: 0.9375rem;
     margin: 14px 0;
   }
   .mapHome .swiperWapper .customArrow {
@@ -3440,7 +3571,7 @@ pagination
   }
   .voteSec .ulEstb li a span {
     padding-right: 15px;
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .voteSec .ulEstb li a img {
     width: 20px;
@@ -3464,7 +3595,7 @@ pagination
   }
   .customInput [type="radio"]:checked + label,
   .customInput [type="radio"]:not(:checked) + label {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   /* end 767 */
 }

@@ -64,19 +64,20 @@ $(document).ready(function () {
   
   
     /* --- Font sizing Function --- */
-    $('#increase-font').click(function(){
+    $('#increase-font-footer').click(function(){
       modifyFontSize('html','increase');
     });
-    $('#decrease-font').click(function(){
+    $('#decrease-font-footer').click(function(){
       modifyFontSize('html','decrease')
     });
-    $('#reset-font').click(function(){
+    $('#reset-font-footer').click(function(){
       modifyFontSize('html','reset')
     });
   
   });
   
     function modifyFontSize(MyElement,flag){
+      console.log("font");
   
       var HtmlElement = $(MyElement);
       var currentFontSize = parseInt (HtmlElement.css('font-size'));

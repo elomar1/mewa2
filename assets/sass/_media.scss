@@ -45,7 +45,7 @@
 }
 @media(max-width:1200px) {
     .font50 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     .mapHome .col-md-6 {
         width: 100%;
@@ -67,14 +67,14 @@
             margin-top: 10px;
         }
          .text-center .p18 {
-            font-size: 12px;
+            font-size: .75rem;
         }
          .p20 {
-            font-size: 16px;
+            font-size: 1rem;
             margin-bottom: 10px;
         }
         .FooterLinks ul li a {
-            font-size: 14px;
+            font-size: 0.875rem;
         }
          .FooterLinks ul li {
             margin-bottom: 5px;
@@ -178,7 +178,7 @@
     .navbarMenu .navbar-nav .dropdown-menu ul li .dropdown-item {
         color: #212529;
         font-family: "TajawalMedium";
-        font-size: 14px;
+        font-size: 0.875rem;
         padding: 5px 0;
     }
     .navbarMenu .navbar-nav .dropdown-menu ul li .dropdown-item:hover {
@@ -199,29 +199,29 @@
 @media(max-width:767px) {
     .ourNum .wapperNM .boxNum .counter,
     .font22Green {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
      .p20 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     .p18{
-        font-size: 16px;
+        font-size: 1rem;
     }
      .p16 {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     .label,
     .p13 {
-        font-size: 12px;
+        font-size: .75rem;
       }
     .btnMewa {
-        font-size: 12px;
+        font-size: 75rem;
         min-height: 40px;
         padding: 8px 17px;
         min-width: 115px;
     }
     .btnGreen, .btnBlue {
-        font-size: 14px;
+        font-size: 875rem;
         padding: 5px 30px 5px 30px;
         min-height: 35px;
         min-width: 100px;
@@ -230,7 +230,7 @@
         min-width: 100px;
         min-height: 40px;
         padding-left: 45px;
-        font-size: 14px;
+        font-size: 875rem;
         background-size: 16px;
     }
     .bannerMenu .contentBanner .BNRtxt p.p16 {
@@ -304,7 +304,7 @@
         width: 25px;
     }
     .mapHome .swiperWapper .adverTxt .dateMA .p12 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     .newsHome {
         padding: 35px 25px 30px;
@@ -330,13 +330,13 @@
     }
 
     .mapHome .swiperWapper .adverTxt .font50 {
-        font-size: 35px;
+        font-size: 2.1875rem;
     }
     .mapHome .swiperWapper .swiper-slide {
         height: 480px;
     }
     .mapHome .swiperWapper .adverTxt .p20 {
-        font-size: 15px;
+        font-size: 0.9375rem;
         margin: 14px 0;
     }
     .mapHome .swiperWapper .customArrow {
@@ -389,7 +389,7 @@
     }
     .voteSec .ulEstb li a span {
         padding-right: 15px;
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     .voteSec .ulEstb li a img {
         width: 20px;
@@ -412,7 +412,7 @@
         width: 25px;
       }
       .customInput [type="radio"]:checked + label, .customInput [type="radio"]:not(:checked) + label {
-        font-size: 14px;
+        font-size: 0.875rem;
       }
    /* end 767 */
 }
