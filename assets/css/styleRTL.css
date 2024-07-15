@@ -2273,6 +2273,12 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   transition: .5s;
 }
 
+.mission-vision .inner-cont .mission .img-box img,
+.mission-vision .inner-cont .vision .img-box img {
+  width: 100%;
+  height: 100%;
+}
+
 .mission-vision .inner-cont .mission .content-box,
 .mission-vision .inner-cont .vision .content-box {
   display: -webkit-box;
@@ -2747,6 +2753,7 @@ pagination
 
 .docs-list .docs-card .content-box {
   height: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2768,6 +2775,7 @@ pagination
   margin-bottom: 18px;
   text-align: center;
   padding: 0 30px;
+  overflow: hidden;
 }
 
 .docs-list .docs-card .content-box .hidden-box {
@@ -3409,6 +3417,32 @@ pagination
     right: -2%;
     left: auto;
   }
+  .top-section .content-box p {
+    font-size: 1.25rem;
+    line-height: 38px;
+  }
+  .mission-vision .inner-cont .mission .content-box h4,
+  .mission-vision .inner-cont .vision .content-box h4 {
+    font-size: 1.375rem;
+  }
+  .mission-vision .inner-cont .mission .content-box p,
+  .mission-vision .inner-cont .vision .content-box p {
+    font-size: 1.25rem;
+    line-height: 33px;
+    max-height: calc(33px* 3);
+  }
+  .goals h3 {
+    font-size: 1.5rem;
+  }
+  .goals ul li {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  .goals ul li::before {
+    font-size: 1.25rem;
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -3421,6 +3455,54 @@ pagination
   }
   .mapHome .swiperWapper .customArrow {
     left: 0;
+  }
+  .docs-list .docs-card {
+    height: 255px;
+    padding-top: 45px;
+  }
+  .docs-list .docs-card .icon-box {
+    height: 55px;
+  }
+  .docs-list .docs-card .content-box h4 {
+    font-size: 1rem;
+    line-height: 24px;
+    height: calc(24px* 3);
+    padding: 0 15px;
+  }
+  .docs-list .docs-card .content-box .hidden-box .download-link a {
+    font-size: 1rem;
+  }
+  .docs-list .sort-search select,
+  .docs-list .sort-search.left-sec select {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    min-width: 170px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    padding-left: 35px;
+    background-position: 17px 29px;
+    background-size: 13px;
+  }
+  .docs-list .sort-search input {
+    width: 280px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    padding-left: 40px;
+    background-position: 20px 21px;
+    background-size: 20px;
+  }
+  .media-list .media-card {
+    height: 240px;
+  }
+  .media-list .media-card .img-box {
+    height: 180px;
+  }
+  .media-list .media-card .content-box h4 {
+    font-size: 1rem;
+  }
+  .media-list .media-card .img-box::before {
+    background-size: 50px;
   }
 }
 
@@ -3485,6 +3567,85 @@ pagination
   }
   .mapHome .swiperWapper .customArrow {
     left: 46%;
+  }
+  .top-section .content-box h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .top-section .content-box p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .mission-vision .inner-cont .mission .content-box h4,
+  .mission-vision .inner-cont .vision .content-box h4 {
+    font-size: 1.25rem;
+  }
+  .mission-vision .inner-cont .mission .content-box p,
+  .mission-vision .inner-cont .vision .content-box p {
+    font-size: 1rem;
+    line-height: 25px;
+    max-height: calc(25px* 4);
+  }
+  .goals h3 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  .goals ul li {
+    font-size: 1rem;
+  }
+  .goals ul li::before {
+    font-size: 1rem;
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+  }
+  .breadcrumbSec {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .breadcrumbSec h2 {
+    font-size: 1.5rem;
+  }
+  .breadcrumbSec .breadcrumb li, .breadcrumbSec .breadcrumb li a {
+    font-size: .875rem;
+  }
+  .breadcrumbSec .socialBC > li > a {
+    width: 40px;
+    height: 40px;
+  }
+  .breadcrumbSec .socialBC > li > a img {
+    max-width: 18px;
+  }
+  .breadcrumbSec .breadcrumb {
+    margin-bottom: 10px;
+  }
+  .top-section .img-box {
+    margin: 0 auto;
+    max-width: 350px;
+    margin-top: 20px;
+  }
+  .mission-vision .inner-cont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mission-vision .inner-cont .mission,
+  .mission-vision .inner-cont .vision {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    width: 100%;
+    min-height: 250px;
+    pointer-events: none;
+  }
+  .mission-vision .inner-cont .mission .img-box,
+  .mission-vision .inner-cont .vision .img-box {
+    max-width: 70px;
+    margin-bottom: 6px;
+  }
+  .docs-list .docs-card .content-box h4 {
+    font-size: .875rem;
   }
   /* end 1200 */
 }
@@ -3572,6 +3733,58 @@ pagination
     display: block;
     -webkit-transform: translateY(8px);
             transform: translateY(8px);
+  }
+  .docs-list .docs-card {
+    height: 225px;
+    padding-top: 30px;
+  }
+  .news-details .white-sec h3 {
+    font-size: 1.25rem;
+  }
+  .news-details .white-sec .content-area p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .news-details.event-det .img-area .ev-dates {
+    height: 130px;
+  }
+  .news-details.event-det .img-area .ev-dates .date-from .icon-box,
+  .news-details.event-det .img-area .ev-dates .date-to .icon-box {
+    height: 20px;
+  }
+  .news-details.event-det .img-area .ev-dates .date-from,
+  .news-details.event-det .img-area .ev-dates .date-to {
+    width: 120px;
+  }
+  .news-details.event-det .img-area .ev-dates .date-from .content-box h4,
+  .news-details.event-det .img-area .ev-dates .date-to .content-box h4 {
+    font-size: 1.5rem;
+  }
+  .news-details.event-det .img-area .ev-dates .date-from .content-box p,
+  .news-details.event-det .img-area .ev-dates .date-to .content-box p {
+    font-size: .875rem;
+  }
+  .news-details .white-sec .date {
+    padding: 6px 15px 8px;
+    margin-bottom: 25px;
+  }
+  .news-details .white-sec .date span {
+    font-size: .75rem;
+  }
+  .media-list .mewa-tabs {
+    min-width: 100%;
+  }
+  .mewa-tabs .nav-item {
+    margin-left: 20px;
+  }
+  .mewa-tabs .nav-item:last-child {
+    margin-left: 0;
+  }
+  .media-list .media-card {
+    height: 240px;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
   }
   /* end 992 */
 }
@@ -3804,6 +4017,40 @@ pagination
   .customInput [type="radio"]:checked + label,
   .customInput [type="radio"]:not(:checked) + label {
     font-size: 0.875rem;
+  }
+  .top-section .white-sec {
+    padding: 40px 15px;
+  }
+  .sort-search {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .docs-list .sort-search select, .docs-list .sort-search.left-sec select, .docs-list .sort-search select, .docs-list .sort-search input {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .docs-list .sort-search.left-sec {
+    margin-bottom: 50px;
+  }
+  .news-details .white-sec {
+    padding: 50px 15px;
+  }
+  .news-details.event-det .img-area .ev-dates {
+    position: relative;
+  }
+  .news-details.event-det .img-area {
+    min-height: 325px;
+  }
+  .mewa-tabs .nav-item .nav-link {
+    padding: 10px 15px 15px;
+    font-size: 1rem;
+  }
+  .pagination li a {
+    width: 35px;
+    height: 35px;
+    font-size: .75rem;
   }
   /* end 767 */
 }
