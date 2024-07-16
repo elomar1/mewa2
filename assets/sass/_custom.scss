@@ -1511,7 +1511,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
       margin-#{$start-direction}: 15px;
       p {
         margin: 0;
-        margin-#{$end-direction}: 20px;
+        margin-#{$end-direction}: 5px;
         font-size: 1.125rem;;
         color: #32383D;
         .number {
@@ -2201,7 +2201,7 @@ pagination
         background-color: $title-color !important;
         border: 0;
         td{
-          font-size: 1.1875;
+          font-size: 1.1875rem;
           color: #fff;
           font-family: "SSTBold";
         }
@@ -2482,7 +2482,8 @@ pagination
   &.event-det{
     .img-area{
       position: relative;
-      min-height: 350px;
+      // min-height: 350px;
+      min-height: 200px;
       .ev-dates{
         // margin-bottom: 20px;
         display: flex;

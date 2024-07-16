@@ -1845,7 +1845,7 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
 
 .Evaluation2 .alertEvaluation .left p {
   margin: 0;
-  margin-right: 20px;
+  margin-right: 5px;
   font-size: 1.125rem;
   color: #32383D;
 }
@@ -2660,7 +2660,7 @@ pagination
 }
 
 .inner .table tr:first-child td {
-  font-size: 1.1875;
+  font-size: 1.1875rem;
   color: #fff;
   font-family: "SSTBold";
 }
@@ -2993,7 +2993,7 @@ pagination
 
 .news-details.event-det .img-area {
   position: relative;
-  min-height: 350px;
+  min-height: 200px;
 }
 
 .news-details.event-det .img-area .ev-dates {
@@ -3443,11 +3443,45 @@ pagination
     width: 40px;
     height: 40px;
   }
+  .services-list .services-card .content-box .hidden-box p {
+    line-height: 24px;
+  }
+  .services-list .services-card:hover .content-box .hidden-box p {
+    height: calc(24px* 4);
+  }
+  .services-list .services-card .content-box h4 {
+    line-height: 30px;
+  }
+  .events-list .event-card {
+    height: 300px;
+  }
+  .events-list .event-card .top-section .day-one,
+  .events-list .event-card .top-section .day-two {
+    padding: 10px 15px;
+    width: 130px;
+  }
+  .events-list .event-card .top-section .day-one .icon-box,
+  .events-list .event-card .top-section .day-two .icon-box {
+    height: 24px;
+  }
+  .events-list .event-card .top-section .day-one .content-box h4,
+  .events-list .event-card .top-section .day-two .content-box h4 {
+    font-size: 1.875rem;
+  }
+  .events-list .event-card .top-section .day-one .content-box p,
+  .events-list .event-card .top-section .day-two .content-box p {
+    font-size: .875rem;
+    line-height: 27px;
+  }
+  .events-list .event-card .top-section .day-two {
+    margin-left: 10px;
+  }
 }
 
 @media (max-width: 1400px) {
   .emtthalSec .emtBox {
-    padding: 45px 15px 25px;
+    padding: 75px 15px 25px;
+    height: 305px;
   }
   .mapHome .swiperWapper .adverTxt {
     padding-right: 25px;
@@ -3503,6 +3537,112 @@ pagination
   }
   .media-list .media-card .img-box::before {
     background-size: 50px;
+  }
+  .news-list .sort-search input {
+    width: 280px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    padding-left: 40px;
+    background-position: 20px 21px;
+    background-size: 20px;
+  }
+  .news-list .sort-search.left-sec select {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    min-width: 170px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    padding-left: 35px;
+    background-position: 17px 29px;
+    background-size: 13px;
+  }
+  .news-list .news-card .content-box h4 {
+    line-height: 25px;
+    height: calc(25px* 3);
+  }
+  .news-list .news-card .content-box .date {
+    padding: 4px 11px 5px;
+  }
+  .news-list .news-card .content-box .date span {
+    font-size: 0.75rem;
+  }
+  .events-list .mewa-tabs {
+    min-width: 100%;
+  }
+  .events-list .event-card {
+    padding: 30px 15px;
+    height: 255px;
+  }
+  .events-list .event-card .top-section .day-one,
+  .events-list .event-card .top-section .day-two {
+    padding: 10px;
+    width: 110px;
+  }
+  .events-list .event-card .top-section .day-one .content-box h4,
+  .events-list .event-card .top-section .day-two .content-box h4 {
+    font-size: 1.5rem;
+  }
+  .events-list .event-card .top-section .day-one .content-box p,
+  .events-list .event-card .top-section .day-two .content-box p {
+    font-size: .75rem;
+    line-height: 25px;
+  }
+  .events-list .event-card .details-a a {
+    padding: 6px 25px 8px;
+    font-size: .75rem;
+    line-height: inherit;
+  }
+  .Evaluation2 .alertEvaluation .right strong {
+    font-size: 1rem;
+    padding: 0 15px;
+  }
+  .Evaluation2 .alertEvaluation .right .btnGreen {
+    margin-right: 10px;
+  }
+  .Evaluation2 .alertEvaluation .right .btnSmall {
+    min-width: auto;
+    font-size: 1rem;
+  }
+  .Evaluation2 .alertEvaluation .right img {
+    width: 35px;
+    height: 35px;
+  }
+  .Evaluation2 .alertEvaluation .left p {
+    font-size: 1rem;
+  }
+  .Evaluation2 .alertEvaluation .left p .number {
+    min-width: 34px;
+    min-height: 34px;
+    margin-left: 5px;
+    font-size: .875rem;
+  }
+  .Evaluation .evaluationBox {
+    margin-left: 10px;
+  }
+  .Evaluation .evaluationBox strong {
+    margin-left: 5px;
+  }
+  .Evaluation .right-sec .right {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .emtthalSec .emtBox .EMlog img {
+    height: 65px;
+  }
+  .emtthalSec .emtBox .EMlog .font22Black {
+    font-size: 1.125rem;
+  }
+  .emtthalSec .emtBox .EMTxt .p18, .emtthalSec .emtBox .EMTxt .btnGreen,
+  .emtthalSec .emtBox .EMTxt .btnBlue {
+    font-size: 1rem;
+    line-height: 22px;
+    height: calc(22px* 3);
+    margin-bottom: 10px;
+  }
+  .mapHome .mapSec .text-right,
+  .mapHome .mapSec .resultMap {
+    padding-left: 30px;
   }
 }
 
@@ -3647,6 +3787,46 @@ pagination
   .docs-list .docs-card .content-box h4 {
     font-size: .875rem;
   }
+  .inner .table tr:first-child td {
+    font-size: 1.125rem;
+  }
+  .inner .table tr td {
+    font-size: 1rem;
+  }
+  .news-list .news-card .content-box {
+    height: 100px;
+  }
+  .news-list .news-card .content-box h4 {
+    line-height: 20px;
+    height: calc(20px* 2);
+    font-size: .875rem;
+  }
+  .news-list .news-card .content-box .date img {
+    height: 16px;
+    width: 16px;
+    margin-right: 7px;
+  }
+  .events-list .mewa-tabs .nav-item {
+    margin-right: 20px;
+  }
+  .events-list .mewa-tabs .nav-item:last-child {
+    margin-right: 0;
+  }
+  .Evaluation2 .alertEvaluation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 15px;
+  }
+  .mapHome {
+    height: auto;
+  }
+  .mapHome .col-md-6:first-of-type {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   /* end 1200 */
 }
 
@@ -3728,6 +3908,10 @@ pagination
     position: absolute;
     left: 22px;
     top: -54px;
+    width: 55px;
+    border-color: #005d45;
+    -webkit-box-shadow: 0 10px 15px #0000002b;
+            box-shadow: 0 10px 15px #0000002b;
   }
   .navMewa .logoMain img {
     display: block;
@@ -3786,6 +3970,28 @@ pagination
     margin: 0 auto;
     margin-bottom: 50px;
   }
+  .news-list .sort-search {
+    margin: 0;
+  }
+  .news-list .sort-search input,
+  .news-list .sort-search.left-sec select {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .mewa-tabs .nav-item .nav-link {
+    font-size: 1rem;
+    padding: 10px 15px 15px;
+  }
+  .Evaluation .left-sec .last-edit {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .Evaluation .white-sec {
+    padding: 15px;
+  }
   /* end 992 */
 }
 
@@ -3809,14 +4015,14 @@ pagination
     font-size: .75rem;
   }
   .btnMewa {
-    font-size: 75rem;
+    font-size: .75rem;
     min-height: 40px;
     padding: 8px 17px;
     min-width: 115px;
   }
   .btnGreen,
   .btnBlue {
-    font-size: 875rem;
+    font-size: .875rem;
     padding: 5px 30px 5px 30px;
     min-height: 35px;
     min-width: 100px;
@@ -3825,7 +4031,7 @@ pagination
     min-width: 100px;
     min-height: 40px;
     padding-left: 45px;
-    font-size: 875rem;
+    font-size: .875rem;
     background-size: 16px;
   }
   .bannerMenu .contentBanner .BNRtxt p.p16 {
@@ -3881,6 +4087,9 @@ pagination
     padding: 50px 0 30px 0;
   }
   .emtthalSec .emtBox {
+    padding: 75px 20px 33px;
+  }
+  .emtthalSec .emtBox:hover {
     padding: 35px 20px 33px;
   }
   .emtthalSec .emtBox .EMTxt .p18, .emtthalSec .emtBox .EMTxt .btnGreen,
@@ -3896,7 +4105,7 @@ pagination
   }
   .emtthalSec .emtBox {
     margin-bottom: 20px;
-    height: auto;
+    height: 280px;
   }
   .emtthalSec .emtBox .EMlog img {
     height: 60px;
@@ -4009,6 +4218,9 @@ pagination
     height: 50px;
   }
   .SearchCustom .searchSubmit {
+    width: 50px;
+  }
+  .SearchCustom .searchSubmit img {
     width: 22px;
   }
   .SearchCustom .boxSloce button {
@@ -4040,9 +4252,6 @@ pagination
   .news-details.event-det .img-area .ev-dates {
     position: relative;
   }
-  .news-details.event-det .img-area {
-    min-height: 325px;
-  }
   .mewa-tabs .nav-item .nav-link {
     padding: 10px 15px 15px;
     font-size: 1rem;
@@ -4051,6 +4260,31 @@ pagination
     width: 35px;
     height: 35px;
     font-size: .75rem;
+    margin-bottom: 5px;
+  }
+  .pagination {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .services-list .sort-search input {
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .news-list .news-card {
+    max-height: 350px;
+  }
+  .mapHome .mapSec .text-right,
+  .mapHome .mapSec .resultMap {
+    padding-left: 10px;
+  }
+  .resultMap ul {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: auto;
+    width: 98%;
   }
   /* end 767 */
 }
