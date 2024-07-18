@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*--------------*/
 /*** LTR websites ***/
 @font-face {
@@ -526,6 +527,25 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
           box-shadow: 0 3px 40px rgba(0, 0, 0, 0.05);
   padding: 27px 0;
   border-top: 5px solid #005D45;
+}
+
+.navMewa .logoMain {
+  position: relative;
+}
+
+.navMewa .logoMain::before {
+  content: " نسخة تجريبية";
+  background-color: #63BE6A;
+  color: #fff;
+  border-radius: 8px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-size: 14px;
+  font-family: 'SSTMedium';
+  padding: 0 5px 5px;
+  position: absolute;
+  top: 24px;
+  left: -55px;
 }
 
 .navMewa .logoMain img {
@@ -1745,6 +1765,10 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   margin-right: 20px;
 }
 
+.Evaluation .evaluationBox:last-child {
+  margin-right: 0x;
+}
+
 .Evaluation .evaluationBox strong {
   color: #000;
   font-size: 1rem;
@@ -1848,6 +1872,9 @@ h1, h2, h3, h4, h5, h6, .ms-h1, .ms-h2, .ms-h3, .ms-h4, .ms-h5, .ms-h6 {
   margin-right: 5px;
   font-size: 1.125rem;
   color: #32383D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .Evaluation2 .alertEvaluation .left p .number {
@@ -3410,12 +3437,12 @@ pagination
     width: 95%;
   }
   .newsHome .customArrow .swiper-button-next {
-    left: -3%;
-    right: auto;
+    right: -3%;
+    left: auto;
   }
   .newsHome .customArrow .swiper-button-prev {
-    right: -2%;
-    left: auto;
+    left: -2%;
+    right: auto;
   }
   .top-section .content-box p {
     font-size: 1.25rem;
@@ -3478,17 +3505,17 @@ pagination
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1399.98px) {
   .emtthalSec .emtBox {
     padding: 75px 15px 25px;
     height: 305px;
   }
   .mapHome .swiperWapper .adverTxt {
-    padding-right: 25px;
+    padding-left: 25px;
     max-width: 630px;
   }
   .mapHome .swiperWapper .customArrow {
-    left: 0;
+    right: 0;
   }
   .docs-list .docs-card {
     height: 255px;
@@ -3542,7 +3569,7 @@ pagination
     width: 280px;
     font-size: 1rem;
     padding: 10px 20px;
-    padding-left: 40px;
+    padding-right: 40px;
     background-position: 20px 21px;
     background-size: 20px;
   }
@@ -3553,7 +3580,7 @@ pagination
     min-width: 170px;
     font-size: 1rem;
     padding: 10px 20px;
-    padding-left: 35px;
+    padding-right: 35px;
     background-position: 17px 29px;
     background-size: 13px;
   }
@@ -3614,14 +3641,14 @@ pagination
   .Evaluation2 .alertEvaluation .left p .number {
     min-width: 34px;
     min-height: 34px;
-    margin-left: 5px;
+    margin-right: 5px;
     font-size: .875rem;
   }
   .Evaluation .evaluationBox {
-    margin-left: 10px;
+    margin-right: 10px;
   }
   .Evaluation .evaluationBox strong {
-    margin-left: 5px;
+    margin-right: 5px;
   }
   .Evaluation .right-sec .right {
     -ms-flex-wrap: wrap;
@@ -3646,7 +3673,7 @@ pagination
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199.98x) {
   .font50 {
     font-size: 2.5rem;
   }
@@ -3661,7 +3688,7 @@ pagination
   }
   .bannerMenu .contentBanner .BNRtxt {
     padding-bottom: 140px;
-    padding-right: 50px;
+    padding-left: 50px;
     width: 85%;
   }
   .footerMenw .FooterLinks .flexCenter a {
@@ -3685,11 +3712,11 @@ pagination
     width: 90%;
   }
   .footerMenw .social .fexCenter, .footerMenw .social .voteSec .ulEstb li a, .voteSec .ulEstb li .footerMenw .social a {
-    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 20px;
   }
   .footerMenw .social .fexCenter a, .footerMenw .social .voteSec .ulEstb li a a, .voteSec .ulEstb li .footerMenw .social a a {
-    margin-right: 30px;
+    margin-left: 30px;
   }
   .footerMenw .social .fexCenter a img, .footerMenw .social .voteSec .ulEstb li a a img, .voteSec .ulEstb li .footerMenw .social a a img {
     width: 20px;
@@ -3706,7 +3733,7 @@ pagination
     max-width: unset;
   }
   .mapHome .swiperWapper .customArrow {
-    left: 46%;
+    right: 46%;
   }
   .top-section .content-box h2 {
     font-size: 1.25rem;
@@ -3830,7 +3857,7 @@ pagination
   /* end 1200 */
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
   .footerMenw .col-md-2,
   .footerMenw .col-md-4,
   .emtthalSec .col-md-2 {
@@ -3867,7 +3894,7 @@ pagination
   }
   .navMewa .navActions {
     position: absolute;
-    left: -20px;
+    right: -20px;
     top: 15px;
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
@@ -3892,8 +3919,8 @@ pagination
   .navbarMenu .navbar-nav .dropdown-menu ul {
     padding: 0;
     list-style: unset;
-    text-align: right;
-    padding-right: 20px;
+    text-align: left;
+    padding-left: 20px;
   }
   .navbarMenu .navbar-nav .dropdown-menu ul li .dropdown-item {
     color: #212529;
@@ -3906,7 +3933,7 @@ pagination
   }
   .navbarMenu .navbar-toggler {
     position: absolute;
-    left: 22px;
+    right: 22px;
     top: -54px;
     width: 55px;
     border-color: #005d45;
@@ -3995,7 +4022,7 @@ pagination
   /* end 992 */
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
   .ourNum .wapperNM .boxNum .counter,
   .font22Green {
     font-size: 1.25rem;
@@ -4030,7 +4057,7 @@ pagination
   .linkArrow {
     min-width: 100px;
     min-height: 40px;
-    padding-left: 45px;
+    padding-right: 45px;
     font-size: .875rem;
     background-size: 16px;
   }
@@ -4048,8 +4075,8 @@ pagination
     z-index: 12;
   }
   .bannerMenu .customArrow .swiper-button-prev {
-    left: 65px;
-    right: unset;
+    right: 65px;
+    left: unset;
   }
   .bannerMenu .scrollDown {
     position: relative;
@@ -4111,7 +4138,7 @@ pagination
     height: 60px;
   }
   .dateMA img {
-    margin-left: 10px;
+    margin-right: 10px;
     width: 25px;
   }
   .mapHome .swiperWapper .adverTxt .dateMA .p12 {
@@ -4136,7 +4163,7 @@ pagination
     -webkit-line-clamp: 4;
   }
   .mapHome .swiperWapper .adverTxt {
-    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 95px;
   }
   .mapHome .swiperWapper .adverTxt .font50 {
@@ -4150,7 +4177,7 @@ pagination
     margin: 14px 0;
   }
   .mapHome .swiperWapper .customArrow {
-    left: 34%;
+    right: 34%;
   }
   .voteSec {
     padding: 40px 0 10px;
@@ -4173,19 +4200,19 @@ pagination
             transform: unset;
   }
   .ourNum .customArrow .swiper-button-next {
-    right: auto;
-    left: 0;
+    left: auto;
+    right: 0;
   }
   .ourNum .customArrow .swiper-button-prev {
-    left: auto;
-    right: -50px;
+    right: auto;
+    left: -50px;
   }
   .ourNum .col-md-12 {
     margin-bottom: 25px;
   }
   .bannerMenu .contentBanner .BNRtxt {
     padding-bottom: 140px;
-    padding-right: 0;
+    padding-left: 0;
     width: 95%;
   }
   .voteSec .form .formGroup {
@@ -4200,7 +4227,7 @@ pagination
     margin-bottom: 10px;
   }
   .voteSec .ulEstb li a span {
-    padding-right: 15px;
+    padding-left: 15px;
     font-size: 0.875rem;
   }
   .voteSec .ulEstb li a img {
@@ -4211,7 +4238,7 @@ pagination
     width: 120px;
   }
   .ourNum .wapperNM .boxNum::after {
-    left: -3px;
+    right: -3px;
   }
   .modalSearch .modal-dialog .modal-content .SearchCustom {
     width: 100%;
@@ -4287,5 +4314,17 @@ pagination
     width: 98%;
   }
   /* end 767 */
+}
+
+@media (max-width: 574.98px) {
+  .navMewa .logoMain {
+    padding-left: 15px;
+  }
+  .navMewa .logoMain::before {
+    border-radius: 4px;
+    font-size: 9px;
+    top: 18px;
+    left: -25px;
+  }
 }
 /*# sourceMappingURL=styleLTR.css.map */

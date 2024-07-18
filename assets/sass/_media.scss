@@ -23,12 +23,12 @@
         width: 95%;
     }
     .newsHome .customArrow .swiper-button-next {
-        left: -3%;
-        right: auto;
+        #{$end-direction}: -3%;
+        #{$start-direction}: auto;
     }
     .newsHome .customArrow .swiper-button-prev {
-        right: -2%;
-        left: auto;
+        #{$start-direction}: -2%;
+        #{$end-direction}: auto;
     }
 
     .top-section .content-box p{
@@ -90,17 +90,17 @@
 }
 
 
-@media(max-width:1400px) {
+@media(max-width:1399.98px) {
     .emtthalSec .emtBox {
         padding: 75px 15px 25px;
         height: 305px;
     }
     .mapHome .swiperWapper .adverTxt {
-        padding-right: 25px;
+        padding-#{$start-direction}: 25px;
         max-width: 630px;
     }
     .mapHome .swiperWapper .customArrow {
-        left: 0;
+        #{$end-direction}: 0;
     }
     .docs-list .docs-card{
         height: 255px;
@@ -155,7 +155,7 @@
         width: 280px;
         font-size: 1rem;
         padding: 10px 20px;
-        padding-left: 40px;
+        padding-#{$end-direction}: 40px;
         background-position: 20px 21px;
         background-size: 20px;
     }
@@ -165,7 +165,7 @@
         min-width: 170px;
         font-size: 1rem;
         padding: 10px 20px;
-        padding-left: 35px;
+        padding-#{$end-direction}: 35px;
         background-position: 17px 29px;
         background-size: 13px;
     }
@@ -230,14 +230,14 @@
     .Evaluation2 .alertEvaluation .left p .number {
         min-width: 34px;
         min-height: 34px;
-        margin-left: 5px;
+        margin-#{$end-direction}: 5px;
         font-size: .875rem;
     }
     .Evaluation .evaluationBox{
-        margin-left: 10px;
+        margin-#{$end-direction}: 10px;
     }
     .Evaluation .evaluationBox strong{
-        margin-left: 5px;
+        margin-#{$end-direction}: 5px;
     }
     .Evaluation .right-sec .right {
         flex-wrap: wrap;
@@ -263,7 +263,7 @@
 
 
 }
-@media(max-width:1200px) {
+@media(max-width:1199.98x) {
     .font50 {
         font-size: 2.5rem;
     }
@@ -278,7 +278,7 @@
     }
     .bannerMenu .contentBanner .BNRtxt {
         padding-bottom: 140px;
-        padding-right: 50px;
+        padding-#{$start-direction}: 50px;
         width: 85%;
     }
 
@@ -304,10 +304,10 @@
                 width: 90%;
             }
             .fexCenter {
-                margin-right: 30px;
+                margin-#{$start-direction}: 30px;
                 margin-top: 20px;
                 a {
-                    margin-right: 30px;
+                    margin-#{$start-direction}: 30px;
                     img {
                         width: 20px;
                     }
@@ -327,7 +327,7 @@
         max-width: unset;
     }
     .mapHome .swiperWapper .customArrow {
-        left: 46%;
+        #{$end-direction}: 46%;
     }
     .top-section .content-box h2 {
         font-size: 1.25rem;
@@ -449,7 +449,7 @@
 
     /* end 1200 */
 }
-@media(max-width:992px) {
+@media(max-width:991.98px) {
     .footerMenw .col-md-2 ,
     .footerMenw .col-md-4 ,
     .emtthalSec .col-md-2 {
@@ -486,7 +486,7 @@
     }
     .navMewa .navActions {
         position: absolute;
-        left: -20px;
+        #{$end-direction}: -20px;
         top: 15px;
         transform: scale(.8);
     }
@@ -510,8 +510,8 @@
     .navbarMenu .navbar-nav .dropdown-menu ul {
         padding: 0;
         list-style: unset;
-        text-align: right;
-        padding-right: 20px;
+        text-align: #{$start-direction};
+        padding-#{$start-direction}: 20px;
     }
     .navbarMenu .navbar-nav .dropdown-menu ul li .dropdown-item {
         color: #212529;
@@ -524,7 +524,7 @@
     }
     .navbarMenu  .navbar-toggler {
         position: absolute;
-        left: 22px;
+        #{$end-direction}: 22px;
         top: -54px;
         width: 55px;
         border-color: #005d45;
@@ -616,7 +616,7 @@
     /* end 992 */
 }
 
-@media(max-width:767px) {
+@media(max-width:767.98px) {
     .ourNum .wapperNM .boxNum .counter,
     .font22Green {
         font-size: 1.25rem;
@@ -649,7 +649,7 @@
     .linkArrow {
         min-width: 100px;
         min-height: 40px;
-        padding-left: 45px;
+        padding-#{$end-direction}: 45px;
         font-size: .875rem;
         background-size: 16px;
     }
@@ -667,8 +667,8 @@
         z-index: 12;
     }
     .bannerMenu .customArrow .swiper-button-prev {
-        left: 65px;
-    right: unset;
+        #{$end-direction}: 65px;
+    #{$start-direction}: unset;
     }
     .bannerMenu .scrollDown {
         position: relative;
@@ -724,7 +724,7 @@
         height: 60px;
     }
     .dateMA img {
-        margin-left: 10px;
+        margin-#{$end-direction}: 10px;
         width: 25px;
     }
     .mapHome .swiperWapper .adverTxt .dateMA .p12 {
@@ -749,7 +749,7 @@
         -webkit-line-clamp: 4;
     }
     .mapHome .swiperWapper .adverTxt {
-        padding-left: 15px;
+        padding-#{$end-direction}: 15px;
         padding-bottom: 95px;
     }
 
@@ -764,7 +764,7 @@
         margin: 14px 0;
     }
     .mapHome .swiperWapper .customArrow {
-        left: 34%;
+        #{$end-direction}: 34%;
     }
     .voteSec {
         padding: 40px 0 10px;
@@ -786,19 +786,19 @@
         transform: unset;
     }
     .ourNum .customArrow .swiper-button-next {
-        right: auto;
-        left: 0;
+        #{$start-direction}: auto;
+        #{$end-direction}: 0;
     }
     .ourNum .customArrow .swiper-button-prev {
-        left: auto;
-        right: -50px;
+        #{$end-direction}: auto;
+        #{$start-direction}: -50px;
     }
     .ourNum .col-md-12 {
         margin-bottom: 25px;
     }
     .bannerMenu .contentBanner .BNRtxt {
         padding-bottom: 140px;
-        padding-right: 0;
+        padding-#{$start-direction}: 0;
         width: 95%;
     }
     .voteSec .form .formGroup {
@@ -812,7 +812,7 @@
         margin-bottom: 10px;
     }
     .voteSec .ulEstb li a span {
-        padding-right: 15px;
+        padding-#{$start-direction}: 15px;
         font-size: 0.875rem;
     }
     .voteSec .ulEstb li a img {
@@ -823,7 +823,7 @@
        width: 120px;
     }
     .ourNum .wapperNM .boxNum::after {
-        left: -3px;
+        #{$end-direction}: -3px;
     }
     .modalSearch .modal-dialog .modal-content .SearchCustom {
         width: 100%;
@@ -903,3 +903,16 @@
    /* end 767 */
 }
 
+
+
+@media(max-width:574.98px) {
+    .navMewa .logoMain {
+        padding-#{$start-direction}: 15px;
+    }
+    .navMewa .logoMain::before{
+        border-radius: 4px;
+        font-size: 9px;
+        top: 18px;
+        #{$start-direction}: -25px;
+    }
+}
