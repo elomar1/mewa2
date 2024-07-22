@@ -3673,7 +3673,7 @@ pagination
   }
 }
 
-@media (max-width: 1199.98x) {
+@media (max-width: 1199.98px) {
   .font50 {
     font-size: 2.5rem;
   }
@@ -3939,6 +3939,8 @@ pagination
     border-color: #005d45;
     -webkit-box-shadow: 0 10px 15px #0000002b;
             box-shadow: 0 10px 15px #0000002b;
+    min-width: 55px;
+    max-width: 55px;
   }
   .navMewa .logoMain img {
     display: block;
